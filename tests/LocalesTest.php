@@ -3,6 +3,7 @@
 namespace FormManager\Tests;
 
 use FormManager\Builder;
+use FormManager\Validators\Required;
 
 class LocalesTest extends BaseTest
 {
@@ -11,7 +12,7 @@ class LocalesTest extends BaseTest
         $input = Builder::text()->required();
         $message = 'custom error message';
 
-        FormManager\Validators\Required::$error_message = $message;
+        Required::$error_message = $message;
 
         $this->assertFalse($input->validate());
 
