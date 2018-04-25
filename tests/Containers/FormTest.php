@@ -2,6 +2,8 @@
 
 namespace FormManager\Tests;
 
+use FormManager\Builder;
+use FormManager\Fields\Form;
 use Zend\Diactoros\ServerRequest;
 use Zend\Diactoros\UploadedFile;
 

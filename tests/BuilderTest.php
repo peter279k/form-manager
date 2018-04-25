@@ -2,6 +2,9 @@
 
 namespace FormManager\Tests;
 
+use FormManager\Builder;
+use FormManager\Factory;
+
 class BuilderTest extends BaseTest
 {
     protected $builder;

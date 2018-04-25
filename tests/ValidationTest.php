@@ -2,6 +2,10 @@
 
 namespace FormManager\Tests;
 
+use FormManager\Builder;
+use FormManager\Containers\Form;
+use FormManager\InvalidValueException;
+
 class ValidationTest extends BaseTest
 {
     public function testValidation()

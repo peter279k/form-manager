@@ -2,6 +2,8 @@
 
 namespace FormManager\Tests;
 
+use FormManager\Builder;
+
 class LabelTest extends BaseTest
 {
     public function testOne()

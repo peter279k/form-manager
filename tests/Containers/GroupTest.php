@@ -2,6 +2,9 @@
 
 namespace FormManager\Tests;
 
+use FormManager\Builder;
+use FormManager\Fields\Group;
+
 class GroupTest extends BaseTest
 {
     public function testBase()

@@ -2,6 +2,8 @@
 
 namespace FormManager\Tests;
 
+use FormManager\Builder;
+
 class DatalistTest extends BaseTest
 {
     public function testOne()

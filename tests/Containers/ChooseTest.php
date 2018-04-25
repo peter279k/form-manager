@@ -2,6 +2,9 @@
 
 namespace FormManager\Tests;
 
+use FormManager\Builder;
+use FormManager\Fields\Choose;
+
 class ChooseTest extends BaseTest
 {
     public function testBase()

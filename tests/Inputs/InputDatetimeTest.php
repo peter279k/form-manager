@@ -2,6 +2,8 @@
 
 namespace FormManager\Tests;
 
+use FormManager\Builder;
+
 class InputDatetimeTest extends BaseTest
 {
     public function testBasic()

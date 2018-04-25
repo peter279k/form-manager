@@ -2,6 +2,8 @@
 
 namespace FormManager\Tests;
 
+use FormManager\Builder;
+
 class LocalesTest extends BaseTest
 {
     public function testLocales()

@@ -2,6 +2,8 @@
 
 namespace FormManager\Tests;
 
+use FormManager\Builder;
+
 class InputColorTest extends BaseTest
 {
     public function testBasic()

@@ -2,6 +2,9 @@
 
 namespace FormManager\Tests;
 
+use FormManager\Inputs\Input;
+use FormManager\InvalidValueException;
+use FormManager\Builder;
 use PHPUnit\Framework\TestCase;
 
 abstract class BaseTest extends TestCase

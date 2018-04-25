@@ -2,6 +2,9 @@
 
 namespace FormManager\Tests;
 
+use FormManager\Builder;
+use FormManager\Fields\Collection;
+
 class CollectionTest extends BaseTest
 {
     public function testBase()
