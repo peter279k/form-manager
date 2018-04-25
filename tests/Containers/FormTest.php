@@ -1,7 +1,7 @@
 <?php
 
-use FormManager\Builder;
-use FormManager\Fields\Form;
+namespace FormManager\Tests;
+
 use Zend\Diactoros\ServerRequest;
 use Zend\Diactoros\UploadedFile;
 

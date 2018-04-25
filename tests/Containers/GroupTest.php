@@ -1,7 +1,6 @@
 <?php
 
-use FormManager\Builder;
-use FormManager\Fields\Group;
+namespace FormManager\Tests;
 
 class GroupTest extends BaseTest
 {

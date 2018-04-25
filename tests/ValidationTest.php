@@ -1,8 +1,6 @@
 <?php
 
-use FormManager\Builder;
-use FormManager\Containers\Form;
-use FormManager\InvalidValueException;
+namespace FormManager\Tests;
 
 class ValidationTest extends BaseTest
 {

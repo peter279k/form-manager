@@ -1,10 +1,10 @@
 <?php
 
-use FormManager\Inputs\Input;
-use FormManager\InvalidValueException;
-use FormManager\Builder;
+namespace FormManager\Tests;
 
-abstract class BaseTest extends PHPUnit_Framework_TestCase
+use PHPUnit\Framework\TestCase;
+
+abstract class BaseTest extends TestCase
 {
     protected function _testNameAttributeException($element)
     {

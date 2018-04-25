@@ -23,11 +23,16 @@
 	},
 	"require-dev": {
 		"zendframework/zend-diactoros": "1.*",
-		"phpunit/phpunit": "^4.8|^5.7"
+		"phpunit/phpunit": "^4.8|^5.7|^6.5"
 	},
 	"autoload": {
 		"psr-4": {
 			"FormManager\\": "src"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"FormManager\\Tests\\": "tests"
 		}
 	}
 }

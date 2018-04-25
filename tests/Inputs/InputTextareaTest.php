@@ -1,6 +1,6 @@
 <?php
 
-use FormManager\Builder;
+namespace FormManager\Tests;
 
 class InputTextareaTest extends BaseTest
 {

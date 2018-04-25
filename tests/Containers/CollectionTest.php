@@ -1,7 +1,6 @@
 <?php
 
-use FormManager\Builder;
-use FormManager\Fields\Collection;
+namespace FormManager\Tests;
 
 class CollectionTest extends BaseTest
 {

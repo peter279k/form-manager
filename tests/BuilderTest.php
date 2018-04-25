@@ -1,7 +1,6 @@
 <?php
 
-use FormManager\Builder;
-use FormManager\Factory;
+namespace FormManager\Tests;
 
 class BuilderTest extends BaseTest
 {

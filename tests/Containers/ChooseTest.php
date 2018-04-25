@@ -1,7 +1,6 @@
 <?php
 
-use FormManager\Builder;
-use FormManager\Fields\Choose;
+namespace FormManager\Tests;
 
 class ChooseTest extends BaseTest
 {

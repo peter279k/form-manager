@@ -1,7 +1,6 @@
 <?php
 
-use FormManager\Builder;
-use FormManager\Fields\CollectionMultiple;
+namespace FormManager\Tests;
 
 class CollectionMultipleTest extends BaseTest
 {

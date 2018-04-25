@@ -1,6 +1,7 @@
 <?php
 
-use FormManager\Builder;
+namespace FormManager\Tests;
+
 use Zend\Diactoros\UploadedFile;
 
 class InputFileTest extends BaseTest
